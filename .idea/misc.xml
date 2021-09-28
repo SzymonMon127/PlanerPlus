@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable-v24/button2_bg.xml" value="0.3177083333333333" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable-v24/button3_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable-v24/button5_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable-v24/button6_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable-v24/button7_bg.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/button1_bg.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/button2_bg.xml" value="0.3177083333333333" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/button3_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/button4_bg.xml" value="0.3828125" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/button6_bg.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/button7_bg.xml" value="0.27291666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/gradient.xml" value="0.19479166666666667" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/gradient1.xml" value="0.33697916666666666" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/green_progress_drawable.xml" value="0.33697916666666666" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_back.xml" value="0.3828125" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_cyan.xml" value="0.24010416666666667" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_lock.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_mail.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_menu.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_person.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_phone.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/ic_plus.xml" value="0.34074074074074073" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/icon_cyan.xml" value="0.23489583333333333" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/drawable/icon_main.xml" value="0.23489583333333333" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/font/montserrat_bold.xml" value="0.20885416666666667" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/action_bar.xml" value="0.17831813576494426" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_calendar_view.xml" value="0.33" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_forgot_password.xml" value="0.28804347826086957" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_my_service_providers_list.xml" value="0.20572916666666666" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_my_users_add_task.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_my_users_list.xml" value="0.20572916666666666" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_profil.xml" value="0.33" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_profil_user.xml" value="0.33" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_requests_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_search_providers.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/activity_signup.xml" value="0.33" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/alert_accounts_list.xml" value="0.19701086956521738" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/alert_change_password.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/alert_dialog_adress.xml" value="0.3015625" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/alert_dialog_hour.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/alert_progress.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/alert_registration_provider_adress.xml" value="0.3015625" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/alert_statue_registration.xml" value="0.20572916666666666" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/card_captioned_accounts.xml" value="0.5" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/card_captioned_accounts_white.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/card_captioned_accounts_white_search.xml" value="0.25677083333333334" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/card_captioned_calendar_task.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/fragment_year_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/fragment_year_two.xml" value="0.34427083333333336" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/layout/toolbar_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/menu/main.xml" value="0.3194444444444444" />
+        <entry key="..\:/Android/PlanerPlus/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.23489583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

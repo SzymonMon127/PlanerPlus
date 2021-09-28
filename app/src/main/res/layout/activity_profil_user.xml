@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilUserActivity"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:navigationIcon="@drawable/ic_back"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="50dp"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/green_progress_drawable"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:scaleY="1.5"/>
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageViewProfile"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:background="@drawable/profile" />
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/LnName"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/name"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@drawable/button5_bg"
+        android:textSize="18sp"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ewewewew"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@drawable/button5_bg"
+        android:layout_gravity="center" />
+
+</LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LnType"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/profileType"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:background="@drawable/button5_bg"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/userType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button5_bg"
+                android:fontFamily="@font/montserrat_bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LnUserEmail"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/button5_bg"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="@string/mail"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:background="@drawable/button5_bg" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LnUerPhone"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/phone"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:background="@drawable/button5_bg"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/userPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:background="@drawable/button5_bg"
+                android:fontFamily="@font/montserrat_bold" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LnUerCattegory"
+            android:onClick="onClick"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/cattegory"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:background="@drawable/button5_bg"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/userCattegory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button5_bg"
+                android:fontFamily="@font/montserrat_bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LnUserAdress"
+            android:visibility="gone"
+            android:onClick="onClick"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/address"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:background="@drawable/button5_bg"
+                android:layout_gravity="center" />
+            <TextView
+                android:id="@+id/userAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button5_bg"
+                android:fontFamily="@font/montserrat_bold" />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/button_request"
+            android:textAllCaps ="false"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:minWidth="200dp"
+            android:background="@drawable/button6_bg"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="onClick"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone"
+            android:text="@string/addToGroup" />
+
+        <Button
+            android:id="@+id/button_add_to_group"
+            android:textAllCaps ="false"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:minWidth="200dp"
+            android:background="@drawable/button6_bg"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="onClick"
+            android:visibility="gone"
+            android:layout_marginBottom="20dp"
+            android:text="@string/addUser" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

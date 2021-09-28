@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Planer Plus</string>
+    <string name="hint_username">Company name</string>
+    <string name="hint_password">Password</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Sign up</string>
+    <string name="button_send">Send</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_signin_message">Hello, Sign in here if you are Service Provider</string>
+    <string name="text_signin_normal_user">If you are Custom  User, Sign in here</string>
+    <string name="text_signup_accept_statute">Accept statute to register</string>
+    <string name="text_signin_signup">Don\'t have an account? <b>Sign up</b></string>
+    <string name="text_signup_terms">By signing up, you agree to our <b>terms and conditions</b></string>
+    <string name="text_signup_message">Hello, let\'s set up your account</string>
+
+    <string name="text_forgot_password_title">Forgot password? No worries</string>
+    <string name="text_forgot_password_message">We will send you a link to reset your password</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_home_adress">Company address</string>
+    <string name="button_set">Set</string>
+    <string name="text_cattegory">Category</string>
+    <string name="statute">Statute</string>
+    <string name="numberOfBuild">Building number:</string>
+    <string name="city">City:</string>
+    <string name="hint_null">-</string>
+    <string name="street">Street:</string>
+    <string name="postalCode">Postal code:</string>
+    <string name="aparmentNumber">Door number</string>
+
+
+    <string-array name="cattegory_provider_register">
+        <item>Select:</item>
+        <item>Hairdresser</item>
+        <item>Trade</item>
+        <item>Private Lessons</item>
+        <item>Other</item>
+    </string-array>
+    <string name="statuteText">We expect all advertisers to comply with the local laws for any area their ads target, in addition to the standard Google Ads policies. We generally err on the side of caution in applying this policy because we don’t want to allow content of questionable legality.
+
+Below you will find country-specific legal requirements, but note that this is not an exhaustive list. Advertisers are expected to do their own research on the local regulations for any location their ads target. Learn about what happens if you violate our policies.
+
+Please also note that certain countries, industries and trade associations have their own self-regulatory codes for advertising and marketing. You can find a list containing some of these codes here. Advertisers on Google should refer to these codes where relevant.
+
+If we receive a valid legal request indicating that your ads infringe local law or applicable regulation or code of practice, we may disapprove them locally in the jurisdiction where they are illegal.
+
+Legal requests to remove content can be submitted by any user or government entity to Google through the Legal Help Center at g.co/legal.
+
+As part of our efforts to remain transparent, a copy of each legal request we receive may be sent to the Lumen project for publication. Advertisers can find information on complaints made against their ads on Lumen by searching the relevant Ads URL.
+
+Advertisers may also reach out to Google Ads Support if they have other questions about legal removal requests. We encourage advertisers to first resolve this matter directly with the claimant who submitted the legal notice.
+
+Access our Transparency Report for additional data on the requests we receive from copyright owners and governments to remove information from our products. We expect all advertisers to comply with the local laws for any area their ads target, in addition to the standard Google Ads policies. We generally err on the side of caution in applying this policy because we don’t want to allow content of questionable legality.
+
+Below you will find country-specific legal requirements, but note that this is not an exhaustive list. Advertisers are expected to do their own research on the local regulations for any location their ads target. Learn about what happens if you violate our policies.
+
+Please also note that certain countries, industries and trade associations have their own self-regulatory codes for advertising and marketing. You can find a list containing some of these codes here. Advertisers on Google should refer to these codes where relevant.
+
+If we receive a valid legal request indicating that your ads infringe local law or applicable regulation or code of practice, we may disapprove them locally in the jurisdiction where they are illegal.
+
+Legal requests to remove content can be submitted by any user or government entity to Google through the Legal Help Center at g.co/legal.
+
+As part of our efforts to remain transparent, a copy of each legal request we receive may be sent to the Lumen project for publication. Advertisers can find information on complaints made against their ads on Lumen by searching the relevant Ads URL.
+
+Advertisers may also reach out to Google Ads Support if they have other questions about legal removal requests. We encourage advertisers to first resolve this matter directly with the claimant who submitted the legal notice.
+
+Access our Transparency Report for additional data on the requests we receive from copyright owners and governments to remove information from our products.</string>
+    <string name="address">Company address</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="canceled">Canceled</string>
+    <string name="noSelectedCattegory">No category was selected</string>
+    <string name="noAcceptedStatue">Regulations not accepted</string>
+    <string name="noCompanyName">The company name must be at least 5 letters long</string>
+    <string name="nocompanyAdress">No address was given</string>
+    <string name="noPhoneNumber">Numer telefonu musi mieć minimum 9 cyfr</string>
+    <string name="noPassword">The password cannot be less than 8 characters long</string>
+    <string name="noSamePassword">Passwords are not the same</string>
+    <string name="validEmail">Incorrect e-mail format</string>
+    <string name="notFullAdress">Entered address are not full</string>
+    <string name="logout">Log out</string>
+    <string name="loginEmpty">Login cannot be empty</string>
+    <string name="passwordEmpty">Password cannot be empty</string>
+    <string name="loginFail">Login failed</string>
+    <string name="loggedOut">Logged out</string>
+    <string name="registerFAil">Registration failed</string>
+    <string name="loginSucces">Login success</string>
+    <string name="firebaseInitFail">Not connected to database. Check internet connection.</string>
+    <string name="emailSend">"Email was sent to "</string>
+    <string name="fail">Fail. Try again. </string>
+    <string name="registerSucces">Registered successfully</string>
+    <string name="sendAgain">Send again</string>
+    <string name="verification">Verification</string>
+    <string name="verificationText">Before logging in for the first time, please confirm your email address. Be sure to check spam. You can also request to resend the email.</string>
+    <string name="sent">Sent</string>
+    <string name="profile">Profile</string>
+    <string name="changePassword">Change password</string>
+    <string name="profileType">"Profil type: "</string>
+    <string name="failLoad">Loading failed</string>
+    <string name="hont_oldPassword">Old password</string>
+    <string name="hint_newPassword">New password</string>
+    <string name="hint_ConfirmNewPassword">Repeat new password</string>
+    <string name="changeName">Change name</string>
+    <string name="providerList">My service providers </string>
+    <string name="newNameTitle">Changing name</string>
+    <string name="newNameText">Please enter a new name or cancel</string>
+    <string name="newNameHint">New name</string>
+    <string name="changeSuccesfull">Change successful</string>
+    <string name="onlyProviderFunction">Function is only for service providers</string>
+    <string name="oldPassBad">Old password is incorrect. Try again.</string>
+    <string name="emptyName">Name is empty</string>
+    <string name="changePhone">Change phone</string>
+    <string name="changeAddress">Change address</string>
+    <string name="clients">Clients</string>
+    <string name="newPhoneTitle">Changing phone number</string>
+    <string name="newPhoneText">Please enter a new phone number or cancel</string>
+    <string name="newPhoneHint">New phone number</string>
+    <string name="newAdress">New address</string>
+    <string name="changePicture">Change picture</string>
+    <string name="accWasSaved">Account is already saved.</string>
+    <string name="SQLiteExpection">SQLite Expection</string>
+    <string name="loadingTokenFail">Token loading error</string>
+    <string name="savingComplete">Saved successfully</string>
+    <string name="confirmPassword">Confirm the password</string>
+    <string name="savingAccount">Saving account</string>
+    <string name="passwordIncorrect">Password is incorrect</string>
+    <string name="changeAccount">Change account</string>
+    <string name="noUsersToLoad">No users to load</string>
+    <string name="loggedAlreadyThisAccount">You are already logged on this account</string>
+    <string name="errorInLogginGoogle">Error logging in via google</string>
+    <string name="signOutFail">Error while logging out</string>
+    <string name="relogginSuccess">Relogging was successful</string>
+    <string name="accountMamagment">Account management</string>
+    <string name="decide">Decide what you want to do.</string>
+    <string name="logIn">Log in</string>
+    <string name="delete">Delete account from list</string>
+    <string name="loadPicutureComplete">Zapisywanie powiodło się. Trzeba chwilę odczekać w celu zapisania zmian.</string>
+    <string name="deleted">Deleted successful</string>
+    <string name="account">Account:</string>
+    <string name="googleUsersHaveInstaSavedAcc">Google users have an automatically saved account.</string>
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="search">Search</string>
+    <string name="year1">2021</string>
+    <string name="year2">2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emptyList">List is empty. Firstly add service provider to browse :)</string>
+    <string name="user">User:</string>
+    <string name="userManagment">User profile</string>
+    <string name="showProfile">Show profile</string>
+    <string name="deleteProfile">Delete profile from account</string>
+    <string name="emailApplication">Select an email provider.</string>
+    <string name="company">Company</string>
+    <string name="mail">E-mail</string>
+    <string name="useType">User type</string>
+    <string name="phone">Phone</string>
+    <string name="cattegory">Cattegory</string>
+    <string name="addToGroup">Send invite request</string>
+    <string name="userAlredyinGroup">Service Provider is already added to you list</string>
+    <string name="requestAlredySend">Request is already sent</string>
+    <string name="requestSendSuccess">Request send successful</string>
+    <string name="progress">Loading...</string>
+    <string name="requestsButton">Requests from users</string>
+    <string name="name">Name</string>
+    <string name="deleteProfileFromList">Delete profile from list</string>
+    <string name="addUser">Add user</string>
+    <string name="addingSuccesful">Added successfully</string>
+    <string name="emptyListUSers">Listy is empty. Currently no one has sent requests to add.</string>
+    <string name="hour">Hour</string>
+    <string name="taskManagment">Task Managment</string>
+    <string name="deleTask">Delete task</string>
+    <string name="noTasks">No tasks were entered that day.</string>
+    <string name="addTask">Add new task</string>
+    <string name="hint_task">Write task here</string>
+    <string name="searchByCity">Search by city</string>
+    <string name="searchByName">Search by comapany name</string>
+    <string name="newTask">New task</string>
+</resources>

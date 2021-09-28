@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:id="@+id/allCardView"
+    android:layout_gravity="center"
+    tools:context=".YearOneFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:id="@+id/calendarFirst1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/January"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:id="@+id/calendarFirst2"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/February"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst3"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/March"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst4"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/April"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst5"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/May"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardBackgroundColor="#fff"
+                android:id="@+id/calendarFirst6"
+                app:cardMaxElevation="5dp">
+
+                />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/June"
+                    android:textAlignment="center" />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst7"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/July"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst8"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/August"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst9"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/September"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst10"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/October"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst11"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/November"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                app:cardMaxElevation="5dp"
+                android:id="@+id/calendarFirst12"
+                app:cardBackgroundColor="#fff">
+
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/December"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    />
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

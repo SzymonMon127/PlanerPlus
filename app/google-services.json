@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "849131596928",
+    "project_id": "planerplus-8b569",
+    "storage_bucket": "planerplus-8b569.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849131596928:android:435068b2c630cfe9f8ca65",
+        "android_client_info": {
+          "package_name": "com.kacu.planerplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849131596928-op3dtl43fvoghf6eac3cb94dr08h7v0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kacu.planerplus",
+            "certificate_hash": "445dfdc1d2933610acd1ce92541c85dcacf9f3dc"
+          }
+        },
+        {
+          "client_id": "849131596928-n3j4937smi5f4fqgd25vrt36kdbttrru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9OX-GFT_zyBySd8WD9JMjyJFKjFc4s_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849131596928-n3j4937smi5f4fqgd25vrt36kdbttrru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

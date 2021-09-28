@@ -1,0 +1,33 @@
+<LinearLayout
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/button_signin_custom_user"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_google_dark_focus_hdpi"
+        android:minWidth="200dp"
+        android:onClick="onClick"
+        android:paddingEnd="60dp"
+        android:text="@string/button_sign_in"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        android:textStyle="bold" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:scrollbars="vertical"
+        android:id="@+id/Accounts_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
+
